@@ -1,0 +1,31 @@
+body {
+    font-size:2rem;
+    border:4px double rgb(0,255,0);
+    padding:10%;
+    /* text-align:center; */
+}
+
+a {
+    text-decoration:none;
+    cursor:pointer;
+    color:blue;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:hover ,a:focus {
+    color:rgba(0,0,255,0.5);
+    background-color:yellow;
+}
+
+a:active  {
+    color:red;
+}
+
+
+
+
+
+

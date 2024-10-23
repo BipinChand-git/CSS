@@ -1,0 +1,40 @@
+body {
+    font-size:1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+section {
+    /* column-count: 4;
+    column-width: 250px; */
+    columns:4 250px;    /* shorthand for column-count and width */
+    column-rule:2px ridge black;
+    column-gap:3rem;
+}
+
+section p {
+    margin-top:0;
+}
+
+section h2 {
+    background-color:#333;
+    color:#fff; 
+    margin-top:2rem;
+    padding:1rem;
+    break-inside:avoid;
+    /* break-before:column; */  /*Now not supported*/
+    text-align :center;
+    /* column-span:all; */
+}
+
+.quote {
+    font-size:3rem;
+    column-span:all;
+    text-align:center;
+    margin-top:2rem;
+    color:#333;
+}
+
+.nowrap {
+    white-space:nowrap;
+}

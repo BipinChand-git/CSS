@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size:1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    background-color:#99d98c;
+}
+
+
+nav {
+    /* text-align:right; */
+    list-style-position:inside;
+    list-style:none;
+    background-color:#333;
+}
+li {
+    display:inline-block;
+    padding:1rem;
+}
+
+li a {
+    text-decoration:none;
+    color:#fff;
+}
+
+li a:hover {
+    text-decoration:underline;
+    color:#b56576;
+}
+
+h1 {
+    border:2px double #333;
+}
+
+.details {
+    margin:2rem;
+    font-size: 2rem;
+}
+
+.Student {
+    border:5px outset purple;
+    margin:2em;
+    padding:1em;
+}
+
+main fieldset {
+    margin:1.5rem;
+    padding:1rem;
+    border:3px ridge purple;
+    
+}
+
+main fieldset legend {
+    text-align:center;
+    font-weight:550;
+    color:red;
+}
+
+input {
+    font-size:inherit;
+    background-color:rgb(73, 67, 112);
+    margin:1rem;
+    text-align:center;
+    border-radius: 10px;
+    padding:0.3rem;
+}
+
+.login {
+    text-align:left;
+    font-size:2rem;
+}
+
+footer {
+    font-size:1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.progress ,input {
+    font-size:inherit;
+}
+
+.table {
+    border:5px outset #333;
+    margin:2rem;
+    width:fit-content;
+}
+
+.table caption {
+    background-color:#333;
+    color:beige;
+    text-align:center;
+    font-weight:670;
+    padding:1rem;
+}
+
+.table table thead {
+    background-color:#333;
+    margin-top:0;
+    color:beige;
+}
+
+.table table tbody {
+    text-align :center;
+}
+
+.table table tbody :nth-child(5) {
+    background-color:#333;
+    color:antiquewhite;
+}
+
+.table table tbody tr,th,td {
+    border: 2px solid #000;
+    border-collapse:collapse;
+}
+
+.textarea {
+    margin:2rem;
+    width:50%;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Student Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="https://dbuu.com" target=_blank> Home </a></li>
+                <li> <a href="#"> About </a> </li>
+                <li> <a href="#"> Contact </a> </li>
+            </ul>
+        </nav>
+        <h1>
+            <marquee> Admissions Open 2024 </marquee>
+        </h1>
+
+        <div class="details">
+            <details>
+                <summary> DBUU </summary>
+                Students Registration last date is 1 August.
+            </details>
+        </div>
+    </header>
+    <main>
+        <div class="Student">
+            <form>
+                <fieldset class="registration">
+                    <legend> Student Registration form </legend>
+                    <label for="Name1"> Student Name </label>
+                    <input type="text" id="Name1" class="SName" placeholder="Enter your name" ><br>
+
+                    <label for="dob"> Date-Of-Birth </label>
+                    <input type="date" id="dob" class="date"><br>
+
+                    <label for="emailID"> Email </label>
+                    <input type="email" id="emailID" placeholder="Enter your email"><br>
+
+                    <fieldset>
+                        <legend> Choose your Gender </legend>
+                        <div>
+                            <input type="radio" id="Option1" name="gender" value="Male">
+                            <label for="Option1"> Male </label>
+
+                            <input type="radio" id="Option2" name="gender" value="Female">
+                            <label for="Option2"> Female </label>
+
+                            <input type="radio" id="Option3" name="gender" value="Others">
+                            <label for="Option3"> Others</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend> Choose Branch Preferences </legend>
+                        <div>
+                            <input type="checkbox" id="choose1" name="Btech" value="Civil">
+                            <label for="choose1"> Civil Engineering </label>
+
+                            <input type="checkbox" id="choose2" name="Btech" value="Mechanical">
+                            <label for="choose2"> Mechanical Engineering </label>
+
+                            <input type="checkbox" id="choose3" name="Btech" value="Electronics">
+                            <label for="choose3"> Electronics and Communication Engineering </label>
+
+                            <input type="checkbox" id="choose4" name="Btech" value="Chemical">
+                            <label for="choose4"> Chemical Engineering </label>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <label for="join"> Joining Month: </label>
+                        <input type="month" id="join" name="month">
+                    </div>
+
+                    <div>
+                        <label for="MNo."> Student Mobile Number:</label>
+                        <input type="number" id="Mno." name="Mobile" placeholder="Enter Mobile Number" min="0" max="9">
+                        <!--Don't use for mobile numbers.-->
+                    </div>
+                    <b>Instead Use this---</b>
+                    <div>
+                        <label for="Phone"> Enter your Second Mobile Number: </label>
+                        <input type="tel" id="Phone" name="Phone" placeholder="Enter your Mobile Number"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+                    <div>
+                        <label for="appointment"> Choose time for Registration: </label>
+                        <input type="time" id="appointment" name="appoint" min="09:00" max="18:00">
+                        <small> College hours are 9am to 6pm.</small>
+                    </div>
+                    <div>
+                        <label for="avatar"> Choose Profile Picture </label>
+                        <input type="file" id="avatar" name="profile" accept="image/png, image/jpeg">
+                    </div>
+                    <div>
+
+                        <input type="checkbox" id="mandatory" name="check"> I accept the
+                        <a href="https://google.com" target="_blank"> terms and conditions </a><br>
+
+                        <input type="reset" value="Reset">
+                        <input type="Submit" value="submit">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Login form</legend>
+                    <div class="login">
+                        <div>
+                            <label for="UserId"> Username </label><br>
+                            <input type="text" id="UserId" name="username" placeholder="Enter your username">
+                        </div>
+                        <div>
+                            <label for="pass">Password</label><br>
+                            <input type="password" id="pass" name="password" placeholder="Enter your password">
+                        </div>
+                        <input type="button" value="SignIn">
+                        <div>
+                            <label for="site"> Search our site </label>
+                            <input type="search" id="site" name="search">
+                            <input type="button" value="Search">
+                        </div>
+                    </div>
+                    </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <label for="color"> Red </label>
+        <input type="color" id="color" name="red" value="#ff0000">
+        <abbr title="Dev Bhoomi Uttarakhand University."> DBUU </abbr>
+        <div class="progress">
+            <label for="Progress"> Registration Process </label>
+            <input type="range" id="progress" min="0" max="10">
+        </div>
+        <div  class="table">
+            <table>
+                <caption> Student's Data </caption>
+                <thead >
+                    <tr>
+                        <th> StudentId</th>
+                        <th> StudentName </th>
+                        <th> MobileNumber </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> Bipin </td>
+                        <td> 123456 </td>
+                        <td> pioud@ </td>
+                    </tr>
+                    <tr>
+                        <td> 2</td>
+                        <td> Harsh </td>
+                        <td> 3456777 </td>
+                        <td> ertyu@ </td>
+                    </tr>
+                    <tr>
+                        <td> 3 </td>
+                        <td> Govind </td>
+                        <td> 5778888 </td>
+                        <td> ghjfkd@</td>
+                    </tr>
+                    <tr>
+                        <td> 4 </td>
+                        <td> Piyush </td>
+                        <td> 3456788 </td>
+                        <td> judec@ </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"> No of Students </th>
+                        <td colspan="2"> 4 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="textarea"> 
+            <textarea name="Review" rows="10" cols="10" placeholder="Review and tell us your experience to improve."></textarea>
+        </div>
+    </footer>
+</body>
+
+</html>
